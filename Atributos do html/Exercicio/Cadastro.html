@@ -10,12 +10,75 @@
         <label for="name">Nome:</label>
         <input type="text" id="name" name="name" placeholder="seu nome " />
       </div>
+
       <br />
+
       <div>
         <label for="email">Email:</label>
-        <input type="email" name="email" id="email" required />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          required
+          placeholder="Seu melhor email"
+        />
         <label for="password">password:</label>
-        <input type="password" name="password" id="password" />
+        <input type="password" name="password" id="password" required />
+      </div>
+
+      <br />
+      <br />
+
+      <div>
+        <label for="date">Data:</label>
+        <input type="date" name="date" id="date" />
+        <label for="file">foto:</label>
+        <input type="file" name="file" id="file" />
+      </div>
+
+      <br /><br />
+
+      <div>
+        <label for="nationality ">Nacionalidade:</label>
+        <select name="nationality" id="nationality">
+          -
+          <option value="Brasileira">Brasileira</option>
+          <option value="Russa">Russa</option>
+          <option value="americana">americana</option>
+          -
+        </select>
+        - Genero:
+        <label for="famale">F</label>
+        <input type="radio" name="gender" id="famele" />
+        <label for="male">M</label>
+        <input type="radio" name="gender" id="male" />
+      </div>
+
+      <br />
+
+      <div>
+        <strong>Suas principais qualidades :</strong>
+        <br />
+        <label for="">Inteligencia :</label>
+        <input type="checkbox" name="Inteligencia" id="Inteligencia" />
+        <label for="">preparo fisico :</label>
+        <input type="checkbox" name="preparo" id="preparo" />
+        <label for="">agilidade :</label>
+        <input type="checkbox" name="agilidade" id="agilidade" />
+      </div>
+      <br />
+      <div>
+        <textarea
+          name="description"
+          id="description"
+          cols="30"
+          rows="10"
+          placeholder="Descreva com poucas palavras porque quer ser astronauta?"
+        ></textarea>
+      </div>
+      <br />
+      <div>
+        <input type="submit" />
       </div>
     </form>
   </body>
