@@ -6,21 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contrate-nos</title>
   </head>
+
   <body>
     <header>
       <nav>
         <img src="logo.png" alt="" />
         <a href="img-foguetes.html">Imagens dos foguetes </a>
-        <br />
         <a href="Space.html">Voltar ao inicio</a>
-
         <a href="contrate.html">Escolha sua nave /</a>
       </nav>
     </header>
+
     <hr />
 
     <h1>Hire Us Now</h1>
     <br />
+
     <p>
       Leave a message to request one of our services and we will get back to you
       as soon as possible.
@@ -36,14 +37,21 @@
       <br />
       <br />
 
-      <label for="Spaceship">Spaceship</label>
-      <input list="browsers" name="browser" />
-      <datalist id="browsers">
-        <option value="falcon 9">falcon 9</option>
-        <option value="falcon heavy">falcon heavy</option>
-      </datalist>
+      <div>
+        <label for="Spaceship">Spaceship</label>
+        <input list="browsers" name="browser" />
+        <datalist id="browsers">
+          <option value="falcon 9">falcon 9</option>
+          <option value="falcon heavy">falcon heavy</option>
+        </datalist>
 
-      <input type="submit" value="Submit" />
+        <label for="services">Serviços</label>
+        <input type="search" name="services" id="services" />
+      </div>
+
+      <br /><br />
+
+      <input type="submit" value="enviar relatorio" required />
     </form>
   </body>
 </html>
